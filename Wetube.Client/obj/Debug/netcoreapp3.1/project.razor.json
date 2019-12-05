@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Wetube.Client.csproj",
+  "FilePath": "d:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Wetube.Client.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20501,38 +20501,38 @@
   "RootNamespace": "Wetube.Client",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\_ViewStart.cshtml",
+      "FilePath": "d:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\Shared\\Error.cshtml",
+      "FilePath": "d:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\_ViewImports.cshtml",
+      "FilePath": "d:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "d:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "d:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],

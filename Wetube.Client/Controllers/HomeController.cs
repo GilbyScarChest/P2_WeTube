@@ -9,6 +9,7 @@ using Wetube.Client.Models;
 
 namespace Wetube.Client.Controllers
 {
+    [Route("/[controller]/[action]")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -26,6 +27,27 @@ namespace Wetube.Client.Controllers
         public IActionResult NewUser()
         {
             return View(new UserVM());
+        }
+
+        [HttpPost]
+        public IActionResult AddUserAccount()
+        {
+            if (ModelState.IsValid)
+            {
+                // do something
+            }
+            return RedirectToAction("AccountPage", "User");
+        }
+
+        [HttpGet]
+        public IActionResult ConfirmUser()
+        {
+            if (ModelState.IsValid)
+            {
+                // do something
+                return RedirectToAction("AccountPage", "User");
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult Privacy()

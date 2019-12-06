@@ -23,6 +23,11 @@ namespace Wetube.Client.Controllers
             return View();
         }
 
+        public IActionResult NewUser()
+        {
+            return View(new UserVM());
+        }
+
         public IActionResult Privacy()
         {
             return View();

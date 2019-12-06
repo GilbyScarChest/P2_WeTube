@@ -37,3 +37,6 @@ C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Clie
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.csproj.CopyComplete
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.dll
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.pdb
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Home\NewUser.cshtml.g.cs
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\User\AccountPage.cshtml.g.cs
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\User\WatchMedia.cshtml.g.cs

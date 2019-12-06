@@ -22,7 +22,7 @@ namespace Wetube.Client.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(new UserVM());
         }
 
         public IActionResult NewUser()
@@ -41,11 +41,11 @@ namespace Wetube.Client.Controllers
         }
 
         [HttpPost]
-        public IActionResult ConfirmUser(FormCollection collection)
+        public IActionResult ConfirmUser(UserVM user)
         {
             if (ModelState.IsValid)
             {
-                // do something
+                // find username and password in db
                 return RedirectToAction("AccountPage", "User");
             }
             return RedirectToAction("Index", "Home");

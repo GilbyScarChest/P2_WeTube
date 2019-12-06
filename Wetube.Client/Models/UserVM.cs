@@ -8,6 +8,9 @@ namespace Wetube.Client.Models
         [Required]
         public string Username { get; set; }
         [Required]
+        [StringLength(18, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
+        [RegularExpression(@"^((?=.*[a-z])(?=.*[A-Z])(?=.*\d)).+$")]
+        [DataType(DataType.Password)]
         public int Password { get; set; }
         [Required]
         public string FirstName { get; set; }

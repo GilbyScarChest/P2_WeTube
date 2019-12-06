@@ -4,7 +4,7 @@
 
 <div class="text-center">
     <h1 class="display-4">Please Log In</h1>
-    @using(Html.BeginForm("Index", "Home"))
+    @using(Html.BeginForm("AccountPage", "User"))
     {
         @Html.AntiForgeryToken()
         <label for="username">Username:</label> <input type="text" name="username" /> <br />

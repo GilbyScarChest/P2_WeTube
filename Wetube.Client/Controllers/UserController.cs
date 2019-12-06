@@ -18,7 +18,12 @@ namespace Wetube.Client.Controllers
             _logger = logger;
         }
 
-        public IActionResult Media()
+        public IActionResult AccountPage()
+        {
+            return View();
+        }
+
+        public IActionResult WatchMedia()
         {
             return View();
         }

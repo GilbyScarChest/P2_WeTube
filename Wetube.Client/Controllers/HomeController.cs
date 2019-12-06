@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Wetube.Client.Models;
@@ -30,7 +31,7 @@ namespace Wetube.Client.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddUserAccount()
+        public IActionResult AddUserAccount(UserVM user)
         {
             if (ModelState.IsValid)
             {
@@ -39,8 +40,8 @@ namespace Wetube.Client.Controllers
             return RedirectToAction("AccountPage", "User");
         }
 
-        [HttpGet]
-        public IActionResult ConfirmUser()
+        [HttpPost]
+        public IActionResult ConfirmUser(FormCollection collection)
         {
             if (ModelState.IsValid)
             {

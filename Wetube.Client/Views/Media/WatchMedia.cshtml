@@ -7,7 +7,7 @@
 
 <br/>
 <div class="w-100">
-    @using(Html.BeginForm("Index", "Home"))
+    @using(Html.BeginForm("SendComment", "Media"))
         {
             @Html.AntiForgeryToken()
             @Html.EditorFor(model => model.CommentText, new { htmlAttributes = new { @class = "form-control" } })

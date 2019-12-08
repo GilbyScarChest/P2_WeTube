@@ -1,4 +1,5 @@
 
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -21,6 +22,15 @@ namespace Wetube.Client.Controllers
         public IActionResult WatchMedia()
         {
             return View(new CommentVM());
+        }
+
+        public IActionResult SendComment(CommentVM comment)
+        {
+            comment.CommentDate = DateTime.Now;
+            // MediaTimestamp
+            Console.WriteLine(comment.CommentDate);
+            Console.WriteLine(comment.CommentText);
+            return RedirectToAction("WatchMedia", "Media");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

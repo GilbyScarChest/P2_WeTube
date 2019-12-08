@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Wetube.Client.Models;
 
 namespace Wetube.Client.Controllers
 {
+    [Route("/[controller]/[action]")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -17,10 +19,36 @@ namespace Wetube.Client.Controllers
         {
             _logger = logger;
         }
-//hi
+
         public IActionResult Index()
         {
-            return View();
+            return View(new UserVM());
+        }
+
+        public IActionResult NewUser()
+        {
+            return View(new UserVM());
+        }
+
+        [HttpPost]
+        public IActionResult AddUserAccount(UserVM user)
+        {
+            if (ModelState.IsValid)
+            {
+                // do something
+            }
+            return RedirectToAction("AccountPage", "User");
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmUser(UserVM user)
+        {
+            if (ModelState.IsValid)
+            {
+                // find username and password in db
+                return RedirectToAction("AccountPage", "User");
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult Privacy()
@@ -35,3 +63,4 @@ namespace Wetube.Client.Controllers
         }
     }
 }
+

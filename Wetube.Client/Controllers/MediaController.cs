@@ -1,4 +1,4 @@
-using System;
+
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -9,20 +9,19 @@ using Wetube.Client.Models;
 
 namespace Wetube.Client.Controllers
 {
-    public class UserController : Controller
+    public class MediaController : Controller
     {
-        private readonly ILogger<UserController> _logger;
+        private readonly ILogger<MediaController> _logger;
 
-        public UserController(ILogger<UserController> logger)
+        public MediaController(ILogger<MediaController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult AccountPage()
+        public IActionResult WatchMedia()
         {
-            return View();
+            return View(new CommentVM());
         }
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

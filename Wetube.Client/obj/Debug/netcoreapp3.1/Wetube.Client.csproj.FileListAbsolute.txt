@@ -37,8 +37,10 @@ C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Clie
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.pdb
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Home\NewUser.cshtml.g.cs
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\User\AccountPage.cshtml.g.cs
-C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\User\WatchMedia.cshtml.g.cs
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Home\_ViewStart.cshtml.g.cs
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AccountLayout.cshtml.g.cs
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_HomeLayout.cshtml.g.cs
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\User\_ViewStart.cshtml.g.cs
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Media\WatchMedia.cshtml.g.cs
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Media\_ViewStart.cshtml.g.cs
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MediaLayout.cshtml.g.cs

@@ -20501,6 +20501,11 @@
   "RootNamespace": "Wetube.Client",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\Shared\\_MediaLayout.cshtml",
+      "TargetPath": "Views\\Shared\\_MediaLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\Shared\\_AccountLayout.cshtml",
       "TargetPath": "Views\\Shared\\_AccountLayout.cshtml",
       "FileKind": "mvc"
@@ -20541,6 +20546,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\Media\\_ViewStart.cshtml",
+      "TargetPath": "Views\\Media\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\User\\AccountPage.cshtml",
       "TargetPath": "Views\\User\\AccountPage.cshtml",
       "FileKind": "mvc"
@@ -20556,8 +20566,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\User\\WatchMedia.cshtml",
-      "TargetPath": "Views\\User\\WatchMedia.cshtml",
+      "FilePath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Views\\Media\\WatchMedia.cshtml",
+      "TargetPath": "Views\\Media\\WatchMedia.cshtml",
       "FileKind": "mvc"
     }
   ],

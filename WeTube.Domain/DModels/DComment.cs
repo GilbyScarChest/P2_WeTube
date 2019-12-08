@@ -18,16 +18,18 @@ namespace WeTube.Domain.DModels
       //create a comment and timereceived array? would also need to track the user who made the comment
 
 
-      public int Id { get; set; }
+
+      //strictly created from the database
+      //public int Id { get; set; }
       public DateTime TimeReceived { get; set; }
       public string Text { get; set; }
       public DateTime TimeStamp { get; set; }
 
-      public DComment(string CommentText, DateTime CommentDate, int CommentId, DateTime MediaTimeStamp)
+      public DComment(string CommentText, DateTime CommentDate, DateTime MediaTimeStamp)
       {
          Text = CommentText;
          TimeReceived = CommentDate;
-         Id = CommentId;
+         //Id = CommentId;
          TimeStamp = MediaTimeStamp;
 
       }      

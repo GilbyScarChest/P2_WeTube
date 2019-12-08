@@ -1,0 +1,8 @@
+# dotnet
+**/bin/
+**/obj/
+**/.vscode/
+
+
+# vagrant
+**/.vagrant/

@@ -17,7 +17,7 @@ namespace Wetube.Client.Controllers
         {
             _logger = logger;
         }
-
+//hi
         public IActionResult Index()
         {
             return View();

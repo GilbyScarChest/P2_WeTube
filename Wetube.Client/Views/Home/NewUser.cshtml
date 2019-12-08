@@ -11,36 +11,49 @@
         {
             @Html.AntiForgeryToken()
             <div class="row">
-                <h3>User SignUp</h3>
+                <h3 class="display-4">User SignUp</h3>
             </div>
-            <br/>
-            <div class="row">
-                @Html.TextBoxFor(m => m.FirstName, new {@placeholder="First Name", @style="padding-right: 3vw"})
-                @Html.ValidationMessageFor(m => m.FirstName, "", new {@style="color:red"})
+            <hr/>
+            <div class="form-group">
+                @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                </div>
             </div>
-            <br/>
-            <div class="row">
-                @Html.TextBoxFor(m => m.LastName, new {@placeholder="Last Name", @style="padding-right: 3vw"})
-                @Html.ValidationMessageFor(m => m.LastName, "", new {@style="color:red"})
+            <div class="form-group">
+                @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                </div>
             </div>
-            <br/>
-            <div class="row">
-                @Html.TextBoxFor(m => m.Username, new {@placeholder="Create User Name", @style="padding-right: 3vw"})
-                @Html.ValidationMessageFor(m => m.Username, "", new {@style="color:red"})
+            <div class="form-group">
+                @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                </div>
             </div>
-            <br/>
-            <div class="row">
-                @Html.TextBoxFor(m => m.Password, new {@placeholder="Create Password", @style="padding-right: 3vw"})
-                @Html.ValidationMessageFor(m => m.Password, "", new {@style="color:red"})
+            <div class="form-group">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
             </div>
-            <br/>
-            <div class="row">
-                @Html.TextBoxFor(m => m.Email, new {@placeholder="Email", @style="padding-right: 3vw"})
-                @Html.ValidationMessageFor(m => m.Email, "", new {@style="color:red"})
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
             </div>
-            <br/>
-            
-            <input type="Submit" value="Next" style="padding-right: 4vw; padding-left: 4vw; margin-left: 0%"/>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Submit" class="btn btn-outline-light" />
+                </div>
+            </div>
         }
     </div>
     <div class="col-md-6">

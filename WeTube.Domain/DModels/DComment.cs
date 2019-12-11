@@ -24,14 +24,17 @@ namespace WeTube.Domain.DModels
       public DateTime TimeReceived { get; set; }
       public string Text { get; set; }
       public DateTime TimeStamp { get; set; }
+      public string videoID { get; set; }
+      public int userID { get; set; }
 
-      public DComment(string CommentText, DateTime CommentDate, DateTime MediaTimeStamp)
+      public DComment(string CommentText, DateTime CommentDate, DateTime MediaTimeStamp, string vidID, int userid)
       {
          Text = CommentText;
          TimeReceived = CommentDate;
          //Id = CommentId;
          TimeStamp = MediaTimeStamp;
-
+         videoID = vidID;
+         userID = userid;
       }      
    }
 }

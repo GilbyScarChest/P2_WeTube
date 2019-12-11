@@ -18,8 +18,9 @@ namespace Wetube.Client.Controllers
             _logger = logger;
         }
 
-        public IActionResult AccountPage()
+        public IActionResult AccountPage(UserVM user)
         {
+            ViewBag.Username = user.Username;
             return View();
         }
 

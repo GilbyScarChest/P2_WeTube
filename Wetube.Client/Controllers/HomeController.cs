@@ -35,9 +35,11 @@ namespace Wetube.Client.Controllers
         {
             if (ModelState.IsValid)
             {
-                // do something
+                // UserRepository _ur = new UserRepository();
+                // _ur.SaveUser(user.Username, user.Password, user.FirstName, user.LastName, user.Email);
+                return RedirectToAction("AccountPage", "User", user);
             }
-            return RedirectToAction("AccountPage", "User");
+            return View("NewUser");
         }
 
         [HttpPost]
@@ -45,8 +47,18 @@ namespace Wetube.Client.Controllers
         {
             if (ModelState.IsValid)
             {
-                // find username and password in db
-                return RedirectToAction("AccountPage", "User");
+                // // find username and password in db
+                // UserRepository _ur = new UserRepository();
+                // List<Users> Users = _ur.GetUserInfo();
+
+                // var usernames = Users.Find(u => u.Username == user.Username)
+                // var passwords = Users.Fine(u => u.Password == user.Password)
+
+                // if (usernames != null && passwords != null)
+                // {
+                //     // attach entire record from db to current model
+                //     return RedirectToAction("AccountPage", "User", user);
+                // }
             }
             return RedirectToAction("Index", "Home");
         }

@@ -9,3 +9,14 @@ C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Stor
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.csproj.CopyComplete
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.dll
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.pdb
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Storing.deps.json
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Storing.dll
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Storing.pdb
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Domain.dll
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Domain.pdb
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.csprojAssemblyReference.cache
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.AssemblyInfoInputs.cache
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.AssemblyInfo.cs
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.csproj.CopyComplete
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.dll
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.pdb

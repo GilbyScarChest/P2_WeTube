@@ -51,13 +51,17 @@ namespace Wetube.Client.Controllers
                 // UserRepository _ur = new UserRepository();
                 // List<Users> Users = _ur.GetUserInfo();
 
+                // UserVM user2 = new UserVM();
+
+                // user2.Username == Users.Username;
+
                 // var usernames = Users.Find(u => u.Username == user.Username)
                 // var passwords = Users.Fine(u => u.Password == user.Password)
 
                 // if (usernames != null && passwords != null)
                 // {
                 //     // attach entire record from db to current model
-                //     return RedirectToAction("AccountPage", "User", user);
+                //     return RedirectToAction("AccountPage", "User", user2);
                 // }
             }
             return RedirectToAction("Index", "Home");

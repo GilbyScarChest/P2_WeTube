@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {}
+    "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {
+    "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj",
         "projectName": "WeTube.Domain",
-        "projectPath": "C:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj",
+        "projectPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj",
         "packagesPath": "C:\\Users\\tdgso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\obj\\",
+        "outputPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tdgso\\AppData\\Roaming\\NuGet\\NuGet.Config",

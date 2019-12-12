@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "WeTube.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/WeTube.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeTube.Domain.dll": {}
+        }
+      },
+      "WeTube.Storing/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "WeTube.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WeTube.Storing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeTube.Storing.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WeTube.Domain/1.0.0": {
+      "type": "project",
+      "path": "../WeTube.Domain/WeTube.Domain.csproj",
+      "msbuildProject": "../WeTube.Domain/WeTube.Domain.csproj"
+    },
+    "WeTube.Storing/1.0.0": {
+      "type": "project",
+      "path": "../WeTube.Storing/WeTube.Storing.csproj",
+      "msbuildProject": "../WeTube.Storing/WeTube.Storing.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "WeTube.Domain >= 1.0.0",
+      "WeTube.Storing >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\tdgso\\.nuget\\packages\\": {}
@@ -13,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Wetube.Client.csproj",
+      "projectUniqueName": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Wetube.Client.csproj",
       "projectName": "Wetube.Client",
-      "projectPath": "C:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Wetube.Client.csproj",
+      "projectPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Wetube.Client.csproj",
       "packagesPath": "C:\\Users\\tdgso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\obj\\",
+      "outputPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tdgso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,7 +70,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {
+              "projectPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj"
+            },
+            "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Storing\\WeTube.Storing.csproj": {
+              "projectPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Storing\\WeTube.Storing.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

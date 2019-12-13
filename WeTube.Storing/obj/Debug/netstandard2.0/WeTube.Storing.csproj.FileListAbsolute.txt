@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Storing.deps.json
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Storing.dll
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Storing.pdb
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Domain.dll
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Domain.pdb
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.csprojAssemblyReference.cache
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.AssemblyInfoInputs.cache
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.AssemblyInfo.cs
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.csproj.CopyComplete
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.dll
+C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.pdb
+=======
+>>>>>>> 61a2448219954c49f2a06d374b3867f0582dffaf
 D:\revature_projects\project2\P2_WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Storing.deps.json
 D:\revature_projects\project2\P2_WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Storing.dll
 D:\revature_projects\project2\P2_WeTube\WeTube.Storing\bin\Debug\netstandard2.0\WeTube.Storing.pdb
@@ -9,3 +25,7 @@ D:\revature_projects\project2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\
 D:\revature_projects\project2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.csproj.CopyComplete
 D:\revature_projects\project2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.dll
 D:\revature_projects\project2\P2_WeTube\WeTube.Storing\obj\Debug\netstandard2.0\WeTube.Storing.pdb
+<<<<<<< HEAD
+=======
+>>>>>>> 784fa5f8742d429ae624779a3e8a4ea3e0ee2d61
+>>>>>>> 61a2448219954c49f2a06d374b3867f0582dffaf

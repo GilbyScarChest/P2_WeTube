@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -46,6 +48,7 @@ C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Clie
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Media\_ViewStart.cshtml.g.cs
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MediaLayout.cshtml.g.cs
 =======
+>>>>>>> 61a2448219954c49f2a06d374b3867f0582dffaf
 D:\revature_projects\project2\P2_WeTube\Wetube.Client\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\revature_projects\project2\P2_WeTube\Wetube.Client\bin\Debug\netcoreapp3.1\appsettings.json
 D:\revature_projects\project2\P2_WeTube\Wetube.Client\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -85,6 +88,12 @@ D:\revature_projects\project2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\We
 D:\revature_projects\project2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.csproj.CopyComplete
 D:\revature_projects\project2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.dll
 D:\revature_projects\project2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.pdb
+<<<<<<< HEAD
+=======
 >>>>>>> 784fa5f8742d429ae624779a3e8a4ea3e0ee2d61
+<<<<<<< HEAD
 C:\Users\lynds\revature_projects\project_2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.dll
 C:\Users\lynds\revature_projects\project_2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.pdb
+=======
+>>>>>>> 61a2448219954c49f2a06d374b3867f0582dffaf
+>>>>>>> 12e24828b7c4b67f26c3963f245d123cd5c7f74a

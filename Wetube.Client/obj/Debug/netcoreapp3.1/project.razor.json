@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "FilePath": "c:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\Wetube.Client\\Wetube.Client.csproj",
+=======
+  "FilePath": "d:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Wetube.Client.csproj",
+>>>>>>> 12e24828b7c4b67f26c3963f245d123cd5c7f74a
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20499,6 +20503,7 @@
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "Wetube.Client",
+<<<<<<< HEAD
   "Documents": [
     {
       "FilePath": "c:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\Wetube.Client\\Views\\Home\\Privacy.cshtml",
@@ -20571,5 +20576,8 @@
       "FileKind": "mvc"
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> 12e24828b7c4b67f26c3963f245d123cd5c7f74a
   "SerializationFormat": "0.2"
 }

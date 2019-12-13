@@ -1,7 +1,11 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Testing\\WeTube.Testing.csproj": {}
+=======
+    "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Testing\\WeTube.Testing.csproj": {}
+>>>>>>> 12e24828b7c4b67f26c3963f245d123cd5c7f74a
   },
   "projects": {
     "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {
@@ -14,7 +18,12 @@
         "outputPath": "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\lynds\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+          "C:\\Users\\tdgso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 12e24828b7c4b67f26c3963f245d123cd5c7f74a
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

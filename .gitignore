@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # dotnet
 **/bin/
 **/obj/
@@ -8,6 +9,8 @@
 # vagrant
 **/.vagrant/
 =======
+=======
+>>>>>>> models
 # dotnet 
 **/bin/
 **/obj/
@@ -16,5 +19,9 @@
 **/.vagrant/
 
 # vscode
+<<<<<<< HEAD
 **/.vscode/
 >>>>>>> 784fa5f8742d429ae624779a3e8a4ea3e0ee2d61
+=======
+**/.vscode/
+>>>>>>> models

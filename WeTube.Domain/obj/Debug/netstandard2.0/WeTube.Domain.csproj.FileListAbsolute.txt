@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Domain\bin\Debug\netstandard2.0\WeTube.Domain.deps.json
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Domain\bin\Debug\netstandard2.0\WeTube.Domain.dll
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Domain\bin\Debug\netstandard2.0\WeTube.Domain.pdb
@@ -6,3 +7,13 @@ C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Doma
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Domain\obj\Debug\netstandard2.0\WeTube.Domain.AssemblyInfo.cs
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Domain\obj\Debug\netstandard2.0\WeTube.Domain.dll
 C:\Users\tdgso\Documents\revature\revature_projects\project_2\WeTube\WeTube.Domain\obj\Debug\netstandard2.0\WeTube.Domain.pdb
+=======
+D:\revature_projects\project2\P2_WeTube\WeTube.Domain\bin\Debug\netstandard2.0\WeTube.Domain.deps.json
+D:\revature_projects\project2\P2_WeTube\WeTube.Domain\bin\Debug\netstandard2.0\WeTube.Domain.dll
+D:\revature_projects\project2\P2_WeTube\WeTube.Domain\bin\Debug\netstandard2.0\WeTube.Domain.pdb
+D:\revature_projects\project2\P2_WeTube\WeTube.Domain\obj\Debug\netstandard2.0\WeTube.Domain.csprojAssemblyReference.cache
+D:\revature_projects\project2\P2_WeTube\WeTube.Domain\obj\Debug\netstandard2.0\WeTube.Domain.AssemblyInfoInputs.cache
+D:\revature_projects\project2\P2_WeTube\WeTube.Domain\obj\Debug\netstandard2.0\WeTube.Domain.AssemblyInfo.cs
+D:\revature_projects\project2\P2_WeTube\WeTube.Domain\obj\Debug\netstandard2.0\WeTube.Domain.dll
+D:\revature_projects\project2\P2_WeTube\WeTube.Domain\obj\Debug\netstandard2.0\WeTube.Domain.pdb
+>>>>>>> 784fa5f8742d429ae624779a3e8a4ea3e0ee2d61

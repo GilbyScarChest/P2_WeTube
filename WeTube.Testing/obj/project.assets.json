@@ -6922,33 +6922,44 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tdgso\\.nuget\\packages\\": {}
+    "C:\\Users\\Dallas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Testing\\WeTube.Testing.csproj",
       "projectName": "WeTube.Testing",
       "projectPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Testing\\WeTube.Testing.csproj",
       "packagesPath": "C:\\Users\\tdgso\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Testing\\obj\\",
+=======
+      "projectUniqueName": "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Testing\\WeTube.Testing.csproj",
+      "projectName": "WeTube.Testing",
+      "projectPath": "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Testing\\WeTube.Testing.csproj",
+      "packagesPath": "C:\\Users\\Dallas\\.nuget\\packages\\",
+      "outputPath": "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Testing\\obj\\",
+>>>>>>> 784fa5f8742d429ae624779a3e8a4ea3e0ee2d61
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tdgso\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Dallas\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {
               "projectPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj"
+=======
+            "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {
+              "projectPath": "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj"
+>>>>>>> 784fa5f8742d429ae624779a3e8a4ea3e0ee2d61
             }
           }
         }

@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dallas\\.nuget\\packages\\": {}
+    "C:\\Users\\lynds\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj",
       "projectName": "WeTube.Domain",
-      "projectPath": "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj",
-      "packagesPath": "C:\\Users\\Dallas\\.nuget\\packages\\",
-      "outputPath": "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Domain\\obj\\",
+      "projectPath": "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj",
+      "packagesPath": "C:\\Users\\lynds\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dallas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lynds\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -234,5 +234,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Domain\\obj\\WeTube.Domain.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

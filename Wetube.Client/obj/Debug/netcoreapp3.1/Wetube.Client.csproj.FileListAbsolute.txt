@@ -86,3 +86,5 @@ D:\revature_projects\project2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\We
 D:\revature_projects\project2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.dll
 D:\revature_projects\project2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.pdb
 >>>>>>> 784fa5f8742d429ae624779a3e8a4ea3e0ee2d61
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.dll
+C:\Users\lynds\revature_projects\project_2\P2_WeTube\Wetube.Client\obj\Debug\netcoreapp3.1\Wetube.Client.pdb

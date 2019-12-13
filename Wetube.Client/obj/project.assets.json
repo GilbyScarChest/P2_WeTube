@@ -46,27 +46,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dallas\\.nuget\\packages\\": {}
+    "C:\\Users\\lynds\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Wetube.Client.csproj",
+      "projectUniqueName": "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\Wetube.Client\\Wetube.Client.csproj",
       "projectName": "Wetube.Client",
-      "projectPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\Wetube.Client.csproj",
-      "packagesPath": "C:\\Users\\tdgso\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\Wetube.Client\\obj\\",
-=======
-      "projectUniqueName": "D:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Wetube.Client.csproj",
-      "projectName": "Wetube.Client",
-      "projectPath": "D:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\Wetube.Client.csproj",
-      "packagesPath": "C:\\Users\\Dallas\\.nuget\\packages\\",
-      "outputPath": "D:\\revature_projects\\project2\\P2_WeTube\\Wetube.Client\\obj\\",
->>>>>>> 784fa5f8742d429ae624779a3e8a4ea3e0ee2d61
+      "projectPath": "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\Wetube.Client\\Wetube.Client.csproj",
+      "packagesPath": "C:\\Users\\lynds\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\Wetube.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dallas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lynds\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -77,19 +69,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-<<<<<<< HEAD
-            "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {
-              "projectPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Domain\\WeTube.Domain.csproj"
+            "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {
+              "projectPath": "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj"
             },
-            "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Storing\\WeTube.Storing.csproj": {
-              "projectPath": "c:\\Users\\tdgso\\Documents\\revature\\revature_projects\\project_2\\WeTube\\WeTube.Storing\\WeTube.Storing.csproj"
-=======
-            "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj": {
-              "projectPath": "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Domain\\WeTube.Domain.csproj"
-            },
-            "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Storing\\WeTube.Storing.csproj": {
-              "projectPath": "D:\\revature_projects\\project2\\P2_WeTube\\WeTube.Storing\\WeTube.Storing.csproj"
->>>>>>> 784fa5f8742d429ae624779a3e8a4ea3e0ee2d61
+            "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Storing\\WeTube.Storing.csproj": {
+              "projectPath": "C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\WeTube.Storing\\WeTube.Storing.csproj"
             }
           }
         }
@@ -123,5 +107,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\lynds\\revature_projects\\project_2\\P2_WeTube\\Wetube.Client\\obj\\Wetube.Client.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

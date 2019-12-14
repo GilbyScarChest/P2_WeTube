@@ -38,5 +38,12 @@ namespace Wetube.Client.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult CommentLog(List<CommentVM> commentLog)
+        {
+          Console.WriteLine(commentLog);
+
+          return RedirectToAction("WatchMedia", "Media");
+        }
     }
 }

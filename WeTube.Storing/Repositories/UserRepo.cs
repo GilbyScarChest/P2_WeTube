@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using WeTube.Storing.Entities;
-using WeTube.Domain.Models;
+using WeTube.Domain.DModels;
 
 namespace WeTube.Storing.Repositories
 {

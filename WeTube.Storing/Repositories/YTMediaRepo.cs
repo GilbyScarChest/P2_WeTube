@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using WeTube.Domain.Models;
+using WeTube.Domain.DModels;
 using WeTube.Storing.Entities;
 
 namespace WeTube.Storing.Repositories

@@ -6,10 +6,11 @@ namespace Wetube.Client.Models
     {
         public int UserId { get; set; }
         [Required(ErrorMessage = "Please enter a valid username")]
+        [StringLength(18, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 5)]
         public string Username { get; set; }
         [Required(ErrorMessage = "Please enter a valid password")]
         [StringLength(18, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
-        [RegularExpression(@"^((?=.*[a-z])(?=.*[A-Z])(?=.*\d)).+$")]
+        // [RegularExpression(@"^((?=.*[a-z])(?=.*[A-Z])(?=.*\d)).+$")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
         [Required(ErrorMessage = "Please Enter Your First Name")]

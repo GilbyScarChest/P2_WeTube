@@ -17849,14 +17849,93 @@
       },
       {
         "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__CommentHistCompViewComponentTagHelper",
+        "Name": "__Generated__HistoryViewComponentTagHelper",
         "AssemblyName": "Wetube.Client",
         "Documentation": null,
         "TagOutputHint": null,
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
-            "TagName": "vc:comment-hist-comp",
+            "TagName": "vc:history",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [
+              {
+                "Name": "id",
+                "NameComparison": 0,
+                "Value": null,
+                "ValueComparison": 0,
+                "Diagnostics": [],
+                "Metadata": {}
+              }
+            ],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "id",
+            "TypeName": "System.Int32",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "id"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__HistoryViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "History"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MediaViewComponentTagHelper",
+        "AssemblyName": "Wetube.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [
+          {
+            "Id": "RZ3900",
+            "Severity": 3,
+            "Message": "Could not find an 'Invoke' or 'InvokeAsync' method for the view component 'Wetube.Client.Views.Shared.Components.MediaViewComponent'.",
+            "Span": {
+              "FilePath": null,
+              "AbsoluteIndex": -1,
+              "LineIndex": -1,
+              "CharacterIndex": -1,
+              "Length": 0
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MediaViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Media"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__SubmitViewComponentTagHelper",
+        "AssemblyName": "Wetube.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:submit",
             "ParentTag": null,
             "TagStructure": 0,
             "Attributes": [],
@@ -17868,8 +17947,8 @@
         "Diagnostics": [],
         "Metadata": {
           "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__CommentHistCompViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "CommentHistComp"
+          "Common.TypeName": "__Generated__SubmitViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Submit"
         }
       },
       {
@@ -17895,6 +17974,31 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__CommentLogComponentViewComponentTagHelper",
           "MVC.ViewComponent.Name": "CommentLogComponent"
+        }
+      },
+      {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__CommentHistCompViewComponentTagHelper",
+        "AssemblyName": "Wetube.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:comment-hist-comp",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__CommentHistCompViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "CommentHistComp"
         }
       },
       {

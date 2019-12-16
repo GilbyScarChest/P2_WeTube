@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace WeTube.Domain.DModels
 {
@@ -35,6 +36,16 @@ namespace WeTube.Domain.DModels
          TimeStamp = MediaTimeStamp;
          videoID = vidID;
          userID = userid;
-      }      
+      }
+
+      //returns a List of Comment objects, 
+      public List<DComment> DCommentLog()
+      {
+        List<DComment> commentsMade = new List<DComment>();
+        DComment practiceComment = new DComment("hello", DateTime.Now, DateTime.Now, "fakeId", 1);
+        commentsMade.Add(practiceComment);
+
+        return commentsMade;
+      }
    }
 }

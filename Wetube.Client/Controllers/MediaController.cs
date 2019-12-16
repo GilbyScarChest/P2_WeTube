@@ -27,10 +27,29 @@ namespace Wetube.Client.Controllers
         public IActionResult SendComment(CommentVM comment)
         {
             comment.CommentDate = DateTime.Now;
-            // MediaTimestamp
+            //send the comment to the database
             Console.WriteLine(comment.CommentDate);
             Console.WriteLine(comment.CommentText);
             return RedirectToAction("WatchMedia", "Media");
+        }
+
+        public IActionResult LogComment(CommentVM comment)
+        {
+          List<CommentVM> logs = new List<CommentVM>();
+          logs.Add(comment);
+
+          return RedirectToAction("WatchMedia", "Media");
+        }
+
+        //not used right now. if not able to accomplish this in domain, then here?
+        public IActionResult CommentHistory(List<CommentVM> commenthist)
+        {
+          foreach(var item in commenthist)
+          {
+            Console.WriteLine(item);
+          }
+
+          return RedirectToAction("WatchMedia", "Media");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

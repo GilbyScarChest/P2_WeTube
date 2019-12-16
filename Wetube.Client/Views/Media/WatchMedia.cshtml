@@ -4,7 +4,7 @@
     ViewData["Title"] = "Watch";
 }
 
-
+<!-- this is the comment form -->
 <br/>
 <div class="w-100">
     @using(Html.BeginForm("SendComment", "Media"))
@@ -18,3 +18,7 @@
             </div>
         }
 </div>
+<!-- this is the CommentHistory section -->
+@section CommentHistory{
+  @Html.Display(Model.CommentText)
+}

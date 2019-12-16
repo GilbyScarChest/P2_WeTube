@@ -32,9 +32,19 @@
                 <!-- Media Goes Here Somehow -->
             </div>
         </div>
-        <main role="main" class="pb-3 col-md -4">
-            @RenderBody()
-        </main>
+        <!-- <div class="row" class="pb-3 col-md-4"> -->
+          <main role="main">
+              @RenderBody()
+          </main>
+          <div>
+            <!-- this is where the comment logging/history needs to go -->
+            <h2>Comments:</h2>
+            <div>
+              <!-- commenthistory is in the watchmedia view as a section -->
+              @RenderSection("CommentHistory", true)
+            </div>
+          </div>
+        </div>
     </div>
 
     <footer class="border-top footer text-muted">
